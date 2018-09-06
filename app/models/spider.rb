@@ -3,7 +3,7 @@ class Spider
   def get_browser
     options = Selenium::WebDriver::Chrome::Options.new
 
-    if chrome_bin = ENV["GOOGLE_CHROME_BIN"]
+    if chrome_bin = ENV["GOOGLE_CHROME_SHIM"]
       options.binary = chrome_bin
       Selenium::WebDriver::Chrome.driver_path = \
         "/app/vendor/bundle/bin/chromedriver"
