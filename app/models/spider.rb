@@ -14,7 +14,7 @@ class Spider
     # heroku. chromedriver-helper & chrome seem to work out of the box on osx,
     # but not on heroku.
     if chrome_bin = ENV["GOOGLE_CHROME_BIN"]
-      options.add_argument "no-sandbox"
+      # options.add_argument "no-sandbox"
       options.binary = chrome_bin
       # give a hint to here too
       Selenium::WebDriver::Chrome.driver_path = \
