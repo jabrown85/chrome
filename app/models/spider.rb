@@ -25,9 +25,9 @@ class Spider
     # options.add_argument "window-size=1200x600"
     # options.add_argument "headless"
     # options.add_argument "disable-gpu"
-    chrome_options.add_argument('--headless')
-    chrome_options.add_argument('--no-sandbox')
-    chrome_options.add_argument('--disable-dev-shm-usage')
+    options.add_argument('--headless')
+    options.add_argument('--no-sandbox')
+    options.add_argument('--disable-dev-shm-usage')
 
     # make the browser
     Watir::Browser.new :chrome, options: options
