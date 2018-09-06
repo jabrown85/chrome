@@ -15,5 +15,4 @@ gem 'listen'
 
 group :production, :staging do
   gem 'rack-timeout'
-  gem 'rails_12factor'
 end
