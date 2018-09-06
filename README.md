@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. Deploy application to heroku
 
-Things you may want to cover:
+2. run `heroku rake db:migrate`
 
-* Ruby version
+## The tasks
 
-* System dependencies
+to run the spider without delayed job, run 'heroku run rake go_to_google:execute'
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+to run the spider without delayed job, run 'heroku run rake go_to_google_delay:execute'
