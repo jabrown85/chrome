@@ -6,6 +6,6 @@
 
 ## The tasks
 
-to run the spider without delayed job, run 'heroku run rake go_to_google:execute'
+to run the spider without delayed job, run `heroku run rake go_to_google:execute`
 
-to run the spider without delayed job, run 'heroku run rake go_to_google_delay:execute'
+to run the spider without delayed job, run `heroku run rake go_to_google_delay:execute`
